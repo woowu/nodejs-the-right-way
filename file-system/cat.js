@@ -1,4 +1,4 @@
-#!/usr/bin/env node --harmony
+#!/usr/bin//node --harmony
 /***
  * Excerpted from "Node.js the Right Way",
  * published by The Pragmatic Bookshelf.
