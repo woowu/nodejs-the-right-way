@@ -26,7 +26,7 @@ if (cluster.isMaster) {
   });
   
   dealer.on('message', function() {
-    let frames = Array.prototype.slice.call(null, arguments);
+    let frames = Array.prototype.slice.call(arguments);
     router.send(frames);
   });
   
